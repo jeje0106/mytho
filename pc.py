@@ -1,28 +1,3 @@
-from configparser import ConfigParser
-from datetime import datetime
-from hashlib import sha1
-from json import load as jsonload
-from locale import LC_ALL, getdefaultlocale, getlocale, setlocale
-from os import _exit, execl, mkdir
-from os import name as osname
-from os import environ as osenviron
-from platform import machine as osprocessor
-from os import path, system
-from os import system as ossystem
-from pathlib import Path
-from platform import system as plsystem
-from re import sub
-from signal import SIGINT, signal
-from socket import socket
-from statistics import mean
-from subprocess import DEVNULL, Popen, check_call
-from threading import Thread as thrThread
-from time import ctime, sleep, strptime, time
-from multiprocessing import Lock
-from random import choice
-import pip
-import select
-
 thread_lock = Lock()
 
 
