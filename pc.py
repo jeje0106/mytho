@@ -4,7 +4,6 @@
 # https://github.com/revoxhere/duino-coin
 # Distributed under MIT license
 # © Duino-Coin Community 2019-2021
-##########################################
 # Import libraries
 import sys
 from configparser import ConfigParser
